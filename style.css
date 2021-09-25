@@ -1,0 +1,32 @@
+body {
+    font: normal 16px sans-serif;
+    background-color: #111318;
+  }
+  ul {
+    width: 30%;
+    padding: 5px;
+    background-color: #374758;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 1em;
+  }
+  ul:first-of-type {
+    margin-top: 0;
+  }
+  li:hover {
+    background-color: #E44E5A;
+  }
+  li {
+    color: white;
+    padding: .5em;
+    list-style: none;
+    border: 2px solid rgba(255, 255, 255, .3);
+    border-radius: 3px;
+    margin-bottom: 5px;
+  }
+  li:last-child {
+    margin-bottom: 0;
+  }
+  .container {
+    margin-top: 3em;
+  }
